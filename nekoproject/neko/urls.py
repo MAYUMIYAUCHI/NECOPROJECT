@@ -1,9 +1,9 @@
 
 from django.urls import path
-from . import indexfunc,listfunc
+from . import indexfunc,list_chatfunc
 
 urlpatterns = [
     path('index/',indexfunc ),
-    path('list/'listfunc),
+    path('list_chat/'list_chatfunc),
 
 ]

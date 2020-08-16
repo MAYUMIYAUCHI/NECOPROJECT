@@ -7,5 +7,4 @@ def indexfunc(repuest):
   return render(repuest,'index.html')
 
 def listfunc(request):
-  return render(request,'list.html')
-  
+  return render(request,'list_chat.html')
